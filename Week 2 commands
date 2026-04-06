@@ -1,0 +1,14 @@
+mkdir -p ~/bootcamp/week2/{logs,scripts,backups}
+touch file{1..5}.txt
+mv *.log logs/
+
+
+#!/bin/bash
+
+mkdir -p logs scripts backups
+
+mv *.log logs/ 2>/dev/null
+mv *.sh scripts/ 2>/dev/null
+cp *.txt backups/ 2>/dev/null
+
+echo "Files organized successfully."  
