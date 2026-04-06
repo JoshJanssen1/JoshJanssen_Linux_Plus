@@ -1,0 +1,11 @@
+## Problem:
+Permission denied when trying to run ls
+
+## Root Cause:
+Directory permissions were incorrect
+
+## Fix:
+Used chmod to restore correct permissions
+
+## Lesson Learned:
+Linux permissions directly affect visibility and access
